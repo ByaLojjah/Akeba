@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mission-section, .about-section, .why-choose-us, .workshops-section, .trust-section {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.mission-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.mission {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.mission-section .image-mission img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 20px; 
+    margin-bottom: 40px; 
+}
+
+.about-section, .why-choose-us {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-section{
+    padding-top: 20px;
+}
+
+.why-choose-us {
+    text-align: center;
+}
+
+.why-choose-us .reasons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.why-choose-us .reason {
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.why-choose-us .green {
+    background-color: #33CC66;
+    margin: 10px;
+}
+
+.why-choose-us .blue {
+    background-color: #3399FF;
+    margin: 10px;
+}
+
+.why-choose-us .orange {
+    background-color: #FF9933;
+    margin: 10px;
+}
+
+.why-choose-us .red {
+    background-color: #FF6666;
+    margin: 10px;
+}
+
+
+.workshops-section p {
+    font-size: 1.1rem;
+}
+
+.trust-section .partners {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.trust-section .partners img {
+    max-width: 100px;
+    height: auto;
+}

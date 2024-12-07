@@ -1,6 +1,6 @@
 /* Style du compte */
 section {
-    max-width: 800px;
+    max-width: 780px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -8,8 +8,10 @@ section {
     border-radius: 10px;
 }
 
-h2, h3 {
-    color: #ff6f00;
+h1,
+h2,
+h3 {
+    color: #ec611e;
 }
 
 label {
@@ -17,7 +19,9 @@ label {
     margin-top: 10px;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -27,7 +31,7 @@ input, textarea, select {
 }
 
 input[type="submit"] {
-    background-color: #ff6f00;
+    background-color: #0e6fb8;
     color: white;
     border: none;
     cursor: pointer;
@@ -37,46 +41,7 @@ input[type="submit"]:hover {
     background-color: #e65c00;
 }
 
-.footer {
-    background-color: #f8f8f8;
-    padding: 30px 0;
-}
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
 
-.footer-column {
-    flex: 1;
-    margin-right: 30px;
-}
 
-.footer-column h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
 
-.footer-column ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-}
-
-.footer-column ul li {
-    margin: 10px;
-}
-
-.footer-column ul li a {
-    color: #333;
-    text-decoration: none;
-}
-
-.footer-bottom {
-    background-color: #e0e0e0;
-    padding: 10px 0;
-    text-align: center;
-}

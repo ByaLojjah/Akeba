@@ -88,14 +88,14 @@ main{
 
 
 .footer {
-    background-color: #f8f8f8;
+    background-color: #edebea;
     padding: 30px 0;
+    max-width: 100%;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -121,12 +121,12 @@ main{
 }
 
 .footer-column ul li a {
-    color: #333;
+    color: #2484c7;
     text-decoration: none;
 }
 
 .footer-bottom {
-    background-color: #e0e0e0;
+    background-color: #487289;
     padding: 10px 0;
     text-align: center;
 }
